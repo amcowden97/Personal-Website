@@ -1,0 +1,87 @@
+body{
+	background-color: black;
+	background-size: cover
+}
+
+h2{
+	font-size: 30px;
+	color: darkolivegreen
+}
+
+#Navbar{
+	margin-left: 24%;
+}
+
+#Navbar img{
+	height: 35px;
+}
+
+/*Top Logo Style Sheet Declarations*/
+#nameBanner{
+	margin-top: 4%;
+	margin-left: 22%;
+}
+
+#topLogo{
+	font-family: TopLogoFonts;
+	color: #F3F8F3;
+	font-size: 45px;
+	white-space: pre;
+}
+
+#commentMarks{
+	color: darkslateblue;
+	font-size: 70px;
+	font-family: SecondaryLogoFonts;
+	font-style: oblique;
+}
+
+#secondaryLogo{
+	color: mediumspringgreen;
+	font-size: 40px;
+	font-family: SecondaryLogoFonts;
+	white-space: pre;
+}
+
+#contentBanner{
+	background: darkslateblue;
+	border-radius: 25px;
+	margin-top: 2%;
+	height: 600px;
+	width: 80%;
+	margin-left: 7%;
+}
+
+.contentBox{
+	margin-left: 2%;
+	margin-right: 2%;
+	margin top: 2%;
+	margin: 40px;
+	float: left;
+	background-color: #F3F8F3;
+	border-radius: 25px;
+	height: 500px;
+	width: 28%;
+}
+
+/*Font and Animation Declarations*/
+@font-face{
+    font-family: TopLogoFonts;
+   	src: url(../Fonts/Exo.otf);
+}
+
+@font-face{
+    font-family: SecondaryLogoFonts;
+   	src: url(../Fonts/Exo.otf);
+}
+
+#cursor{
+  border-right: .50em solid #F3F8F3;
+  white-space: pre;
+  animation: blinker .8s step-end infinite;
+}
+
+@keyframes blinker{
+  from, to { border-color: transparent }
+  50% { border-color: #F3F8F3; }
+}
