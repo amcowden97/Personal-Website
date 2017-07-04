@@ -1,67 +1,76 @@
 body{
-	background-color: black;
-	background-size: cover
+	//background-image: url(../Images/Background.jpg);
+	background-size: cover;
+	color: white;
+	margin: 0%;
+	padding: 0%;
 }
 
-h2{
-	font-size: 30px;
-	color: darkolivegreen
+video#BackgroundVid { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
 }
 
-#Navbar{
-	margin-left: 24%;
-}
-
-#Navbar img{
-	height: 35px;
+/*Middle Content Box Declarations*/
+.mainContent{
+	background: rgba(0,0,0,0.8);
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	padding: 50px;
+	margin-top: 15%;
+	margin-left: 5%;
+	align-content: center;
 }
 
 /*Top Logo Style Sheet Declarations*/
 #nameBanner{
-	margin-top: 4%;
-	margin-left: 22%;
+	background: rgba(0,0,0,0.8);
+	background-color: black;
+	padding: 40px;
+	align-content: center;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+#textBanner{
+	margin-left: 12%;
+	opacity: 1.0;
 }
 
 #topLogo{
 	font-family: TopLogoFonts;
 	color: #F3F8F3;
-	font-size: 45px;
+	font-size: 60px;
 	white-space: pre;
+	padding-left: 50px;
 }
 
 #commentMarks{
-	color: darkslateblue;
-	font-size: 70px;
+	color: cornflowerblue;
+	font-size: 65px;
 	font-family: SecondaryLogoFonts;
 	font-style: oblique;
 }
 
 #secondaryLogo{
-	color: mediumspringgreen;
-	font-size: 40px;
+	color: cornflowerblue;
+	font-size: 55px;
 	font-family: SecondaryLogoFonts;
 	white-space: pre;
 }
 
-#contentBanner{
-	background: darkslateblue;
+/*Bottom Footer Area Declarations*/
+#contactBanner{
+	background: rgba(0,0,0,0.7);
 	border-radius: 25px;
-	margin-top: 2%;
-	height: 600px;
-	width: 80%;
-	margin-left: 7%;
-}
-
-.contentBox{
-	margin-left: 2%;
-	margin-right: 2%;
-	margin top: 2%;
-	margin: 40px;
-	float: left;
-	background-color: #F3F8F3;
-	border-radius: 25px;
-	height: 500px;
-	width: 28%;
+	padding: 10px;
+	align-content: center;
+	float: right;
 }
 
 /*Font and Animation Declarations*/
@@ -76,9 +85,11 @@ h2{
 }
 
 #cursor{
-  border-right: .50em solid #F3F8F3;
-  white-space: pre;
-  animation: blinker .8s step-end infinite;
+ 	padding: 20px;
+	border-left: 20px solid #F3F8F3;
+	white-space: pre;
+	animation: blinker .8s step-end infinite;
+	margin: 10px;
 }
 
 @keyframes blinker{
