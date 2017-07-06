@@ -8,7 +8,7 @@ Last Update: 07/05/2017
 
 * The purpose of this webpage is to hold the following information
 
-    __ About Page __ :    brief overview of who I am
+    __About Page__ :    brief overview of who I am
     
     __Home Page__ :     naviation to other areas of the website
     
