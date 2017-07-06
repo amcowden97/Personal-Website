@@ -2,7 +2,7 @@
 
 Last Update: 07/05/2017
 
-##General Notes
+## General Notes
 
 *This repository is used to hold the HTML Pages, CSS Sheets, JavaScript documents, as well as any pictures or videos used in the creation of my personal webpage.
 
@@ -20,10 +20,10 @@ Last Update: 07/05/2017
     
     __Projects Page__ :     type of projects, pictures and code samples, as well as design documentation
     
-    __Contact Page__:   basic contact information as well  as other info such as a link to my Github account
+    __Contact Page__:   basic contact information as well as other info such as a link to my Github account
     
 
-##Contact Information
+## Contact Information
 
 *Creator: Andrew Cowden
 
