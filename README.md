@@ -4,9 +4,9 @@ Last Update: 07/05/2017
 
 ## General Notes
 
-*This repository is used to hold the HTML Pages, CSS Sheets, JavaScript documents, as well as any pictures or videos used in the creation of my personal webpage.
+* This repository is used to hold the HTML Pages, CSS Sheets, JavaScript documents, as well as any pictures or videos used in the creation of my personal webpage.
 
-*The purpose of this webpage is to hold the following information
+* The purpose of this webpage is to hold the following information
 
     __ About Page __ :    brief overview of who I am
     
@@ -25,8 +25,8 @@ Last Update: 07/05/2017
 
 ## Contact Information
 
-*Creator: Andrew Cowden
+* Creator: Andrew Cowden
 
-*Email: am.cowden.97@gmail.com
+* Email: am.cowden.97@gmail.com
 
-*Cell: 815-592-5024
+* Cell: 815-592-5024
