@@ -1,7 +1,7 @@
 # Personal-Website
 ###Insert URL when Website is Posted
 
-Last Update: 07/06/2017
+Last Update: 07/08/2017
 
 ## General Notes
 
@@ -24,9 +24,10 @@ Last Update: 07/06/2017
     __Contact Page__:   basic contact information as well as other info such as a link to my Github account
     
  * Files Provided with this project
-    __HTML Pages__ stores the .html files used to represent the previous pages of the website in their most basic form
-    __Images__ contains the images and videos used in this website such as (Background Images, Project Images, Code Samples)
-    __Style Sheets__ contains the .css file used to style the content and pages of the website
+    __HTML Pages__ stores the .html files used to represent the previous pages of the website in their most basic form.
+    __Images__ contains the images and videos used in this website such as (Background Images, Project Images, Code Samples).
+    __Style Sheets__ contains the .css file used to style the content and pages of the website.
+    __Fonts__ holds the files used to represent the stylized fonts used in this website not given by default. 
     
  * ***NOTE THAT THIS WEBSITE IS NOT YET POSTED ONLINE AND IS ONLY IN INTRODUCTORY STAGES***
 
