@@ -8,7 +8,7 @@ body{
 
 video#BackgroundVid { 
   position: fixed;
-  top: 50%;
+  top: 43%;
   left: 50%;
   min-width: 100%;
   min-height: 100%;
@@ -16,15 +16,32 @@ video#BackgroundVid {
   transform: translate(-50%, -50%);
 }
 
-/*Middle Content Box Declarations*/
-.mainContent{
+/*Navigation Box Declarations*/
+.navBar{
 	background: rgba(0,0,0,0.8);
 	border-top-left-radius: 25px;
 	border-top-right-radius: 25px;
-	padding: 50px;
+	padding: 20px;
 	margin-top: 15%;
 	margin-left: 5%;
 	align-content: center;
+}
+
+.navBar ul{
+	list-style-type: none;
+}
+
+ul li{
+	display: inline;
+	padding: 5px;
+}
+
+ul li a{
+	font-family: NavigationFonts;
+	text-decoration: none;
+	color: ghostwhite;
+	font-size: 30px;
+	margin: 3%;
 }
 
 /*Top Logo Style Sheet Declarations*/
@@ -38,29 +55,31 @@ video#BackgroundVid {
 }
 
 #textBanner{
-	margin-left: 12%;
+	margin-left: 10%;
 	opacity: 1.0;
 }
 
 #topLogo{
 	font-family: TopLogoFonts;
-	color: #F3F8F3;
+	color: ghostwhite;
 	font-size: 60px;
 	white-space: pre;
 	padding-left: 50px;
+	letter-spacing: 5px;
 }
 
 #commentMarks{
-	color: cornflowerblue;
-	font-size: 65px;
-	font-family: SecondaryLogoFonts;
+	color: ghostwhite;
+	font-size: 75px;
+	font-family: TopLogoFonts;
 	font-style: oblique;
 }
 
 #secondaryLogo{
 	color: cornflowerblue;
-	font-size: 55px;
-	font-family: SecondaryLogoFonts;
+	font-size: 65px;
+	font-family: TopLogoFonts;
+	letter-spacing: 2px;
 	white-space: pre;
 }
 
@@ -80,16 +99,16 @@ video#BackgroundVid {
 }
 
 @font-face{
-    font-family: SecondaryLogoFonts;
+    font-family: NavigationFonts;
    	src: url(../Fonts/Exo.otf);
 }
 
 #cursor{
- 	padding: 20px;
-	border-left: 20px solid #F3F8F3;
+	border-left: 30px solid;
 	white-space: pre;
+	padding-top: 20px;
 	animation: blinker .8s step-end infinite;
-	margin: 10px;
+	margin: 20px;
 }
 
 @keyframes blinker{
