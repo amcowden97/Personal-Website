@@ -1,0 +1,72 @@
+body{
+	background-color: #5F5E66;
+}
+
+/*Top Logo Style Sheet Declarations*/
+#textBanner{
+	margin-top: 15%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding: 2%;
+}
+
+#topLogo{
+	font-family: TopLogoFonts;
+	color: ghostwhite;
+	font-size: 110%;
+	white-space: pre;
+	letter-spacing: 5px;
+}
+
+#commentMarks{
+	color: ghostwhite;
+	font-size: 110%;
+	font-family: TopLogoFonts;
+	font-weight: bolder;
+	font-style: oblique;
+}
+
+#secondaryLogo{
+	color: ghostwhite;
+	font-size: 110%;
+	font-family: TopLogoFonts;
+	letter-spacing: 3px;
+	white-space: pre;
+}
+
+p{
+	color: ghostwhite;
+	font-size: 120%;
+	font-family: TopLogoFonts;
+	letter-spacing: 3px;
+}
+
+#codeIndent{
+	margin-left: 3%;
+}
+
+/*Font and Animation Declarations*/
+@font-face{
+    font-family: TopLogoFonts;
+   	src: url(../Fonts/Exo.otf);
+}
+
+@font-face{
+    font-family: NavigationFonts;
+   	src: url(../Fonts/Exo.otf);
+}
+
+#cursor{
+	border-left: 20px solid;
+	white-space: pre;
+	padding-top: 2px;
+	animation: blinker 1s step-end infinite;
+	margin: 5px;
+}
+
+@keyframes blinker{
+  from, to { border-color: transparent }
+  50% { border-color: #F3F8F3; }
+}
+
+/*Image Slider Animations*/
