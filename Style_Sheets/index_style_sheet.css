@@ -1,16 +1,39 @@
 body{
-	background-color: #5F5E66;
+	background-image: url(../Images/background_image.jpg);
+	background-size: cover;
+}
+/*Personal Image*/
+img{
+	width: 8%;
+	height: 8%;
+	margin-left: 43%;
+	margin-top: 5%;
+	padding: 2%;
+	border-radius: 30%;
+}
+
+#mainContent{
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 5%;
+	background-color: black;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
 }
 
 /*Top Logo Style Sheet Declarations*/
 #textBanner{
-	margin-top: 15%;
-	margin-left: 20%;
-	margin-right: 20%;
+	margin-top: 2;
+	margin-left: 10%;
+	margin-right: 10%;
 	padding: 2%;
 }
 
-#topLogo{
+#name{
+	margin-left: 11%;
+}
+
+#nameLogo{
 	font-family: TopLogoFonts;
 	color: ghostwhite;
 	font-size: 110%;
@@ -27,13 +50,19 @@ body{
 }
 
 #secondaryLogo{
-	color: ghostwhite;
+	color: indianred;
 	font-size: 110%;
 	font-family: TopLogoFonts;
 	letter-spacing: 3px;
 	white-space: pre;
 }
 
+.link{
+	text-decoration: none;
+	color: indianred;
+	font-style: italic;
+	font-weight: 700;
+}
 p{
 	color: ghostwhite;
 	font-size: 120%;
@@ -41,8 +70,12 @@ p{
 	letter-spacing: 3px;
 }
 
-#codeIndent{
+.singleCodeIndent{
 	margin-left: 3%;
+}
+
+#doubleCodeIndent{
+	margin-left: 6%;
 }
 
 /*Font and Animation Declarations*/
