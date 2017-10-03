@@ -2,17 +2,25 @@ body{
 	background-image: url(../Images/background_image.jpg);
 	background-size: cover;
 }
+
+#contactDiv{
+	padding-top: 2%;
+	color: ghostwhite;
+}
+
 /*Personal Image*/
 img{
-	width: 8%;
+	width: 20%;
 	height: 8%;
-	margin-left: 43%;
-	margin-top: 5%;
+	margin-left: 36%;
+	margin-top: 2%;
 	padding: 2%;
-	border-radius: 30%;
+	border-radius: 25%;
+	border-color: ghostwhite;
 }
 
 #mainContent{
+	margin-top: -1%;
 	width: 80%;
 	margin-left: 10%;
 	padding-bottom: 5%;
