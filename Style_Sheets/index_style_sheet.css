@@ -1,6 +1,9 @@
-body{
-	background-image: url(../Images/background_image.jpg);
-	background-size: cover;
+html{
+	background: url(../Images/background_image.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 #contactDiv{
@@ -25,8 +28,8 @@ img{
 	margin-left: 10%;
 	padding-bottom: 5%;
 	background-color: black;
-	border-bottom-left-radius: 50px;
-	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 1%;
+	border-bottom-right-radius: 1%;
 }
 
 /*Top Logo Style Sheet Declarations*/
@@ -46,22 +49,12 @@ img{
 	color: ghostwhite;
 	font-size: 110%;
 	white-space: pre;
-	letter-spacing: 5px;
-}
-
-#commentMarks{
-	color: ghostwhite;
-	font-size: 110%;
-	font-family: TopLogoFonts;
-	font-weight: bolder;
-	font-style: oblique;
 }
 
 #secondaryLogo{
 	color: indianred;
 	font-size: 110%;
 	font-family: TopLogoFonts;
-	letter-spacing: 3px;
 	white-space: pre;
 }
 
@@ -101,7 +94,7 @@ p{
 	border-left: 20px solid;
 	white-space: pre;
 	padding-top: 2px;
-	animation: blinker 1s step-end infinite;
+	animation: blinker 1.5s step-end infinite;
 	margin: 5px;
 }
 
@@ -109,5 +102,3 @@ p{
   from, to { border-color: transparent }
   50% { border-color: #F3F8F3; }
 }
-
-/*Image Slider Animations*/
