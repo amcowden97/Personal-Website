@@ -6,48 +6,26 @@ html{
     background-size: cover;
 }
 
-#contactDiv{
-	padding-top: 2%;
-	color: ghostwhite;
-}
-
-/*Personal Image*/
-img{
-	width: 20%;
-	height: 8%;
-	margin-left: 36%;
-	margin-top: 2%;
-	padding: 2%;
-	border-radius: 25%;
-	border-color: ghostwhite;
-}
-
-#mainContent{
-	margin-top: -1%;
-	width: 80%;
-	margin-left: 10%;
-	padding-bottom: 5%;
-	background-color: black;
-	border-bottom-left-radius: 1%;
-	border-bottom-right-radius: 1%;
+body{
+    padding: 0%;
+    margin: 0%;
 }
 
 /*Top Logo Style Sheet Declarations*/
-#textBanner{
-	margin-top: 2;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding: 2%;
+#topBanner{
+	width: 100%;
 }
 
-#name{
-	margin-left: 11%;
+#topBannerText{
+    padding: 5%;
+    margin-left: 5%;
 }
 
 #nameLogo{
 	font-family: TopLogoFonts;
 	color: ghostwhite;
 	font-size: 110%;
+    letter-spacing: .8vw;
 	white-space: pre;
 }
 
@@ -55,6 +33,7 @@ img{
 	color: indianred;
 	font-size: 110%;
 	font-family: TopLogoFonts;
+    letter-spacing: .8vw;
 	white-space: pre;
 }
 
@@ -63,20 +42,6 @@ img{
 	color: indianred;
 	font-style: italic;
 	font-weight: 700;
-}
-p{
-	color: ghostwhite;
-	font-size: 120%;
-	font-family: TopLogoFonts;
-	letter-spacing: 3px;
-}
-
-.singleCodeIndent{
-	margin-left: 3%;
-}
-
-#doubleCodeIndent{
-	margin-left: 6%;
 }
 
 /*Font and Animation Declarations*/
